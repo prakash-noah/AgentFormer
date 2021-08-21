@@ -2,26 +2,18 @@
 
 def get_ethucy_split(dataset):
      seqs = [
-          'biwi_eth',
-          'biwi_hotel',
-          'crowds_zara01',
-          'crowds_zara02',
-          'crowds_zara03',
-          'students001',
-          'students003',
-          'uni_examples'
+          'Rec20210315163750',
+          'Rec20210315165949',
+          'Rec20210322110216',
+          'Rec20210323110406',
+          'Rec20210401222120',
+          'Rec20210514184340',
+          'Rec20210517075857',
+          'Rec20210517083146'
      ]
-
-     if dataset == 'eth':
-          test = ['biwi_eth']
-     elif dataset == 'hotel':
-          test = ['biwi_hotel']
-     elif dataset == 'zara1':
-          test = ['crowds_zara01']
-     elif dataset == 'zara2':
-          test = ['crowds_zara02']
-     elif dataset == 'univ':
-          test = ['students001', 'students003']
+     
+     if dataset == 'mlbevo':
+          test = ['Rec20210401222120']
 
      train, val = [], []
      for seq in seqs:
