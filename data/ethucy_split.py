@@ -8,8 +8,7 @@ def get_ethucy_split(dataset):
           'Rec20210323110406',
           'Rec20210401222120',
           'Rec20210514184340',
-          'Rec20210517075857',
-          'Rec20210517083146'
+          'Rec20210517075857'
      ]
      
      if dataset == 'mlbevo':
