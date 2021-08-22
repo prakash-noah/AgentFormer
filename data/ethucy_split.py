@@ -10,7 +10,7 @@ def get_ethucy_split(dataset):
           'Rec20210514184340',
           'Rec20210517075857'
      ]
-     
+     #pending work for val 
      if dataset == 'mlbevo':
           test = ['Rec20210401222120']
 
